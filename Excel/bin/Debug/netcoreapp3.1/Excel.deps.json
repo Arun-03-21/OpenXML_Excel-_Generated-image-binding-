@@ -1,0 +1,120 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Excel/1.0.0": {
+        "dependencies": {
+          "DocumentFormat.OpenXml": "3.0.1",
+          "SixLabors.ImageSharp": "1.0.3",
+          "System.Drawing.Common": "8.0.1"
+        },
+        "runtime": {
+          "Excel.dll": {}
+        }
+      },
+      "DocumentFormat.OpenXml/3.0.1": {
+        "dependencies": {
+          "DocumentFormat.OpenXml.Framework": "3.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "DocumentFormat.OpenXml.Framework/3.0.1": {
+        "dependencies": {
+          "System.IO.Packaging": "8.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DocumentFormat.OpenXml.Framework.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/1.0.3": {
+        "runtime": {
+          "lib/netcoreapp3.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.123.58006"
+          }
+        }
+      },
+      "System.IO.Packaging/8.0.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {}
+    }
+  },
+  "libraries": {
+    "Excel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DocumentFormat.OpenXml/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DCK1cwFUJ1FGGyYyo++HWl9H1RkqMWIu+FGOLRy6E4L4y0/HIhlJ7N/n1HKboFfOwKn1cMBRxt1RCuDbIEy5YQ==",
+      "path": "documentformat.openxml/3.0.1",
+      "hashPath": "documentformat.openxml.3.0.1.nupkg.sha512"
+    },
+    "DocumentFormat.OpenXml.Framework/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ifyI7OW7sggz7LQMIAD2aUsY/zVUON9QaHrpZ4MK33iVMeHlTG4uhUE2aLWb31nry+LCs2ALDAwf8OfUJGjgBg==",
+      "path": "documentformat.openxml.framework/3.0.1",
+      "hashPath": "documentformat.openxml.framework.3.0.1.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oRmZEITad+0tL22ZfAbLps6doDV+Z0/oH0dtXLpIBwn1sgai3QxxDQPjohHiDeUp/CTzRKVrFFbc4ZITnL2UBg==",
+      "path": "sixlabors.imagesharp/1.0.3",
+      "hashPath": "sixlabors.imagesharp.1.0.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-x0rAZECxIGx/YVjN28YRdpqka0+H7YMN9741FUDzipXPDzesd60gef/LI0ZCOcYSDsacTLTHvMAvxHG+TjbNNQ==",
+      "path": "system.drawing.common/8.0.1",
+      "hashPath": "system.drawing.common.8.0.1.nupkg.sha512"
+    },
+    "System.IO.Packaging/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8g1V4YRpdGAxFcK8v9OjuMdIOJSpF30Zb1JGicwVZhly3I994WFyBdV6mQEo8d3T+URQe55/M0U0eIH0Hts1bg==",
+      "path": "system.io.packaging/8.0.0",
+      "hashPath": "system.io.packaging.8.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    }
+  }
+}
